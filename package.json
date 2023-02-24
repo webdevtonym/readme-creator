@@ -1,0 +1,23 @@
+{
+  "name": "inquirer",
+  "version": "1.0.0",
+  "description": "this project will generate a readme file for the user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdevtonym/readme-creator.git"
+  },
+  "keywords": [
+    "readme",
+    "readme-creator"
+  ],
+  "author": "Anthony Mills",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/webdevtonym/readme-creator/issues"
+  },
+  "homepage": "https://github.com/webdevtonym/readme-creator#readme"
+}
