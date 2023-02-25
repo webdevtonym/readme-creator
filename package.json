@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/webdevtonym/readme-creator/issues"
   },
-  "homepage": "https://github.com/webdevtonym/readme-creator#readme"
+  "homepage": "https://github.com/webdevtonym/readme-creator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.5"
+  }
 }

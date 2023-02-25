@@ -1,7 +1,9 @@
+//Code to import inquirer and file system packages
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-
+//prompt method combined with inquirer with objects for each
+//piece of data to capture
 inquirer.prompt([
     {
         type: 'input',
@@ -26,8 +28,8 @@ inquirer.prompt([
     },
     {
         type: "list",
-        name: "Licence",
-        message: "Please choose a licence for the project:",
+        name: "License",
+        message: "Please choose a license for the project:",
         choices: ['MIT', 'GPL', 'cc', 'ms-pl']
     },
     {
@@ -52,8 +54,27 @@ inquirer.prompt([
     }
 
 ])
+//.then and expression function to build structure of readme file
+//using captured data
 .then((answers) => {
-    const readme = `${answers.title}\n\n Read me for the project`;
+    const readme =
+      `# ${answers.Title}\n\n Read me for the project\n\n` +
+      `## Description\n\n${answers.Description}\n\n` +
+      `## Table of Contents\n\n` +
+      `- [Installation](#installation)\n` +
+      `- [Usage](#usage)\n` +
+      `- [License](#license)\n` +
+      `- [Contributing](#contributing)\n` +
+      `- [Tests](#tests)\n` +
+      `- [Questions](#questions)\n\n` +
+      `## Installation\n\n${answers.Installation}\n\n` +
+      `## Usage\n\n${answers.Usage}\n\n` +
+      `## License\n\nThis project is licensed with the ${answers.License} license.\n\n` +
+      `## Contributing\n\n${answers.Contributing}\n\n` +
+      `## Tests\n\n ${answers.Tests}\n\n` +
+      `## Questions\n\n If you have any questions, please contact me at [${answers.email}](mailto:${answers.email}). You can find information about my other projects at [http://github.com/${answers.Github}](https://github.com/${answers.Github}).`;
+    
+
     fs.writeFileSync('README.md', readme);
     console.log('README.md file generated!');
 });
