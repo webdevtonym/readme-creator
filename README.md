@@ -1,10 +1,10 @@
-# h
+# Readme Creator
 
  Read me for the project
 
 ## Description
 
-h
+This project will generate a readme file with full markdown rules implemented.
 
 ## Table of Contents
 
@@ -17,11 +17,11 @@ h
 
 ## Installation
 
-h
+Installation is not required. Just run the index.js using node.js
 
 ## Usage
 
-h
+This is free to use.
 
 ## License
 
@@ -29,12 +29,12 @@ This project is licensed with the MIT license.
 
 ## Contributing
 
-h
+N/A
 
 ## Tests
 
- h
+ N/A
 
 ## Questions
 
- If you have any questions, please contact me at [h](mailto:h). You can find information about my other projects at [http://github.com/h](https://github.com/h).
+ If you have any questions, please contact me at [anthony.mills132@gmail.com](mailto:anthony.mills132@gmail.com). You can find information about my other projects at [http://github.com/webdevtonym](https://github.com/webdevtonym)

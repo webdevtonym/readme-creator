@@ -72,7 +72,7 @@ inquirer.prompt([
       `## License\n\nThis project is licensed with the ${answers.License} license.\n\n` +
       `## Contributing\n\n${answers.Contributing}\n\n` +
       `## Tests\n\n ${answers.Tests}\n\n` +
-      `## Questions\n\n If you have any questions, please contact me at [${answers.email}](mailto:${answers.email}). You can find information about my other projects at [http://github.com/${answers.Github}](https://github.com/${answers.Github}).`;
+      `## Questions\n\n If you have any questions, please contact me at [${answers.email}](mailto:${answers.email}). You can find information about my other projects at [http://github.com/${answers.Github}](https://github.com/${answers.Github})\n`;
     
 
     fs.writeFileSync('README.md', readme);
