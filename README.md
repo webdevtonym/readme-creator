@@ -33,8 +33,8 @@ N/A
 
 ## Tests
 
- N/A
+Link to video walkthrough: <https://drive.google.com/file/d/1lDJWatMJkwBvOGsykNN8hD7HlIgMYRoJ/view>
 
 ## Questions
 
- If you have any questions, please contact me at [anthony.mills132@gmail.com](mailto:anthony.mills132@gmail.com). You can find information about my other projects at [http://github.com/webdevtonym](https://github.com/webdevtonym)
+If you have any questions, please contact me at [anthony.mills132@gmail.com](mailto:anthony.mills132@gmail.com). You can find information about my other projects at [http://github.com/webdevtonym](https://github.com/webdevtonym)
